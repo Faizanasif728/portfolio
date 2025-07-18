@@ -7,7 +7,7 @@ import domicile_003 from "../assets/certificates/domicile_003.png";
 import city_school_004 from "../assets/certificates/city_school_004.png";
 import Shalimar_clg_005 from "../assets/certificates/Shalimar_clg_005.png";
 import Meta_006 from "../assets/certificates/Meta_006.png";
-import digital_007 from "../assets/certificates/digital_007.png";
+import digital_007 from "../assets/certificates/digital_007.jpg";
 import ks_008 from "../assets/certificates/ks_008.png";
 import ue_camp_009 from "../assets/certificates/ue_camp_009.png";
 import ue_conf_010 from "../assets/certificates/ue_conf_010.png";
