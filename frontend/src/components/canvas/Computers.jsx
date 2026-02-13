@@ -22,7 +22,7 @@ const Computers = () => {
       <primitive
         object={computer.scene}
         scale={0.75} // Keep scale normal for desktop
-        position={[0, -3.75, -1.5]}
+        position={[0, -3.95, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
