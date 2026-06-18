@@ -17,9 +17,9 @@ import {
   firebase,
   canva,
   cloudinary,
-  drawio,
-  lucidchart,
-  mindview,
+  // drawio,
+  // lucidchart,
+  // mindview,
   msoffice,
   mui,
   
@@ -38,12 +38,16 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  sql,
+  dotnet,
+  angular,
 } from '../assets'
 
 
 // Import Tekisky separately
 import knowledgeStreams from "../assets/company/knowledgeStreams.png";
-
+import sortup from "../assets/company/sortup.png";
+import awatech from "../assets/company/awatech.png";
 
 export const navLinks = [
   {
@@ -154,24 +158,34 @@ const technologies = [
     name: "Cloudinary",
     icon: cloudinary,
   },
-  {
-    name: "Draw.io",
-    icon: drawio,
-  },
-  {
-    name: "Lucidchart",
-    icon: lucidchart,
-  },
-  {
-    name: "MindView",
-    icon: mindview,
-  },
+  // {
+  //   name: "Draw.io",
+  //   icon: drawio,
+  // },
+  // {
+  //   name: "Lucidchart",
+  //   icon: lucidchart,
+  // },
+  // {
+  //   name: "MindView",
+  //   icon: mindview,
+  // },
   {
     name: "MS Office",
     icon: msoffice,
   },
- 
-
+   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Dot Net",
+    icon: dotnet,
+  },
+  {
+    name: "MS SQL Server",
+    icon: sql,
+  },
 ];
 
 const experiences = [
@@ -186,6 +200,32 @@ const experiences = [
       "Strengthened core technical skills by building real-world projects with a focus on practical learning.",
       "Improved problem-solving abilities and encouraged innovation through continuous coding challenges.",
       "Developed soft skills like teamwork, communication, leadership, and time management via group projects",
+    ],
+  },
+   {
+    title: "Associate Software Engineer",
+    company_name: "Sortup",
+    icon: sortup,
+    iconBg: "#383E56",
+    date: "01 September 2025 - 30 December 2025",
+    points: [
+        "Developed full-stack web applications using the MERN stack while contributing to multiple real-world business projects.",
+        "Built and enhanced features for Ojiyo, Carbon, Genrep, and Travlteam with a focus on performance and usability.",
+        "Improved problem-solving skills by resolving technical challenges and implementing scalable software solutions.",
+        "Collaborated with team members to deliver project requirements while strengthening communication and teamwork skills.",
+    ],
+  },
+   {
+    title: "Associate Software Engineer",
+    company_name: "Awatech Technology Solutions",
+    icon: awatech,
+    iconBg: "#383E56",
+    date: "01 January 2026 - Present",
+    points: [
+        "Developing enterprise web applications using Angular and .NET while contributing to business-critical software solutions.",
+        "Working on the Aclarian LLC platform by implementing new features and resolving application issues efficiently.",
+        "Strengthening technical expertise through continuous development, maintenance, and enhancement of existing systems.",
+        "Collaborating with developers, QA teams, and stakeholders to deliver reliable and high-quality software solutions.",
     ],
   },
 ];

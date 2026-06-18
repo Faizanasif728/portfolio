@@ -18,9 +18,9 @@ import express from './tech/express.png';
 import firebase from './tech/firebase.png';
 import canva from './tech/canva.png';
 import cloudinary from './tech/cloudinary.png';
-import drawio from './tech/drawio.png';
-import lucidchart from './tech/lucidchart.png';
-import mindview from './tech/mindview.png';
+// import drawio from './tech/drawio.png';
+// import lucidchart from './tech/lucidchart.png';
+// import mindview from './tech/mindview.png';
 import msoffice from './tech/msoffice.png';
 import mui from './tech/mui.png'
 import git from "./tech/git.png";
@@ -32,6 +32,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import dotnet from "./tech/dotnet.png";
+import sql from "./tech/sql.png";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
@@ -54,9 +57,9 @@ export {
   firebase,
   canva,
   cloudinary,
-  drawio,
-  lucidchart,
-  mindview,
+  // drawio,
+  // lucidchart,
+  // mindview,
   msoffice,
   mui,
   firstTestimonial,
@@ -74,5 +77,7 @@ export {
   redux,
   tailwind,
   threejs,
-
+  angular,
+  dotnet,
+  sql,
 };
